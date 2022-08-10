@@ -1,0 +1,37 @@
+{
+  "languageserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
+  "java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.16.8-hotspot",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -javaagent:\"C:\\Users\\H0268\\lombok.jar\"",
+  "java.trace.server": "verbose",
+  "java.configuration.runtimes": [
+    {
+        "name": "JavaSE-1.8",
+        "path": "C:\\Program Files\\Java\\jdk1.8.0_211"
+    },
+    {
+        "name": "JavaSE-15",
+        "path": "C:\\openjdk-15.0.2_windows-x64_bin\\jdk-15.0.2",
+        "default": true
+    }
+  ],
+  "coc.preferences.formatOnSaveFiletypes": [
+    "java",
+    "python",
+    "go",
+    "rust",
+    "javascript",
+    "typescript",
+    "html",
+    "css"
+  ],
+  "powershell.integratedConsole.showOnStartup": false
+}
